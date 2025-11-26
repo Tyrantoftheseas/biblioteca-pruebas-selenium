@@ -75,7 +75,3 @@ George S S R - Estudiante de Programación 3
 
 - Correo: 20240001@itla.edu.do
 - GitHub: Tyrantoftheseas
-
-```
-
-```
