@@ -1,0 +1,200 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+  background: #f4f6f7;
+  padding: 20px;
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px; /* Reducido de 32px */
+  margin-bottom: 15px; /* Reducido de 30px */
+  color: #2c3e50;
+}
+
+/* ============================
+   LOGIN (Optimizado)
+   ============================ */
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2c3e50;
+  margin: 0; /* Asegurar que no haya scroll en login */
+  padding: 0;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  height: 40px; /* Reducido un poco */
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  font-size: 16px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background: #2980b9;
+}
+
+/* ============================
+   DASHBOARD (Compacto)
+   ============================ */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px; /* Limita el ancho para que no se vea estirado */
+  margin: 0 auto 20px auto; /* Menos margen abajo */
+  background: white;
+  padding: 20px; /* Reducido de 30px a 20px */
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+  margin: 0 0 15px 0; /* Margen superior eliminado */
+  font-size: 20px; /* Reducido de 24px */
+  text-align: center;
+  color: #2c3e50;
+}
+
+.form-container input,
+.form-container select {
+  height: 35px; /* Reducido de 45px a 35px */
+  margin: 5px 0; /* Reducido de 8px a 5px */
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Importante para evitar desbordes */
+}
+
+.form-container button {
+  height: 38px; /* Reducido de 45px a 38px */
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container button:hover {
+  background: #219150;
+}
+
+#btnUpdate {
+  background: #f39c12;
+}
+
+#btnUpdate:hover {
+  background: #d68910;
+}
+
+/* ============================
+   TABLA (Más compacta)
+   ============================ */
+.tabla-libros {
+  width: 100%;
+  max-width: 800px; /* Alineado con el formulario */
+  margin: 0 auto 50px auto; /* Margen abajo para dar aire al final */
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px; /* Letra un poco más pequeña */
+}
+
+.tabla-libros th,
+.tabla-libros td {
+  border: 1px solid #eee;
+  padding: 8px; /* Reducido de 12px a 8px */
+  text-align: center;
+}
+
+.tabla-libros th {
+  background: #34495e;
+  color: white;
+  font-weight: 600;
+}
+
+.tabla-libros tr:nth-child(even) {
+  background-color: #f9f9f9; /* Bandas para facilitar lectura */
+}
+
+.tabla-libros button {
+  padding: 5px 10px;
+  margin: 0 2px;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.btnEditar {
+  background: #3498db;
+}
+.btnEditar:hover {
+  background: #2980b9;
+}
+
+.btnEliminar {
+  background: #e74c3c;
+}
+.btnEliminar:hover {
+  background: #c0392b;
+}
+
+/* ============================
+   MENSAJES
+   ============================ */
+.msg-error {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+  min-height: 18px; /* Evita saltos cuando aparece/desaparece */
+}
+
+#msgExito {
+  color: #27ae60;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+  min-height: 18px;
+}

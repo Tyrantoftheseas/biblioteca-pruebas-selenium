@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Biblioteca</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Mi Biblioteca</h1>
+
+    <div class="form-container">
+      <h3>Agregar Libro</h3>
+
+      <input type="text" id="titulo" placeholder="Título" />
+      <input type="text" id="autor" placeholder="Autor" />
+      <input type="number" id="anio" placeholder="Año" />
+
+      <select id="estado">
+        <option value="pendiente">Pendiente</option>
+        <option value="leido">Leído</option>
+      </select>
+
+      <button id="btnAgregar">Agregar</button>
+      <button id="btnUpdate" style="display: none">Actualizar</button>
+
+      <p id="msgForm" class="msg-error"></p>
+      <p
+        id="msgExito"
+        style="color: green; font-size: 14px; margin-top: 10px"
+      ></p>
+    </div>
+
+    <table class="tabla-libros">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Año</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="booksTable"></tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
