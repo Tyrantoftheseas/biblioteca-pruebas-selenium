@@ -78,10 +78,4 @@ George S S R - Estudiante de Programación 3
 
 ```
 
-### **3. Verifica `requirements.txt`**
 ```
-
-selenium==4.15.2
-pytest==7.4.3
-pytest-html==4.1.1
-webdriver-manager==4.0.1
