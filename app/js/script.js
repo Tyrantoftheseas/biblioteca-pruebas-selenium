@@ -67,6 +67,7 @@ function editarLibro(i) {
   document.getElementById('btnAgregar').style.display = 'none';
   document.getElementById('btnUpdate').style.display = 'inline-block';
 
+  // Limpiar mensajes al entrar a editar
   document.getElementById('msgForm').textContent = '';
   document.getElementById('msgExito').textContent = '';
 }
@@ -94,20 +95,24 @@ document.getElementById('btnUpdate').addEventListener('click', function () {
   document.getElementById('msgExito').textContent =
     'Libro actualizado correctamente';
   document.getElementById('msgForm').textContent = '';
-  console.log('Libro actualizado');
 
+  // Limpiar campos
   document.getElementById('titulo').value = '';
   document.getElementById('autor').value = '';
   document.getElementById('anio').value = '';
 });
 
-// --- CAMBIO PRINCIPAL AQUÍ ---
+// Eliminar libro
 function eliminarLibro(i) {
-  // Ahora preguntamos antes de borrar
   if (confirm('¿Estás seguro de que deseas eliminar este libro?')) {
     books.splice(i, 1);
     saveToLocal();
     renderBooks();
+
+    //
+    document.getElementById('msgExito').textContent =
+      'Libro eliminado correctamente';
+    document.getElementById('msgForm').textContent = '';
   }
 }
 

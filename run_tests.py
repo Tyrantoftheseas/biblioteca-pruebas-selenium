@@ -18,13 +18,13 @@ args = [
     "tests/test_agregar.py",  # 2. Crear datos
     "tests/test_listar.py",   # 3. Leer datos
     "tests/test_editar.py",   # 4. Actualizar datos
-    "tests/test_eliminar.py", # 5. Borrar datos (limpieza al final)
+    "tests/test_eliminar.py", # 5. Borrar datos 
 
     # --- OPCIONES ---
-    "-v",                   # Verbose: Muestra detalles en consola
-    "-s",                   # Stdout: Muestra tus prints() en consola
+    "-v",                   # Muestra detalles en consola
+    "-s",                   # Muestra tus prints() en consola
     f"--html={report_file}", # Genera el reporte visual en tu carpeta reports
-    "--self-contained-html" # Hace que el HTML funcione sin necesitar CSS externos
+    "--self-contained-html" 
 ]
 
 print("="*60)
