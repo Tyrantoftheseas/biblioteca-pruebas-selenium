@@ -2,7 +2,7 @@
 
 Sistema de gestión de biblioteca personal con pruebas automatizadas usando Selenium y Python.
 
-## Características
+## 🚀 Características
 
 - **Autenticación:** Login con validación de credenciales y campos vacíos
 - **CRUD Completo:** Gestión de libros (Título, Autor, Año, Estado: Leído/Pendiente)
@@ -10,20 +10,20 @@ Sistema de gestión de biblioteca personal con pruebas automatizadas usando Sele
 - **Persistencia:** Almacenamiento local con localStorage
 - **16 Pruebas Automatizadas:** 3 tipos por historia (camino feliz, negativa, límites)
 
-## Tecnologías
+## 🛠️Tecnologías
 
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
 - **Testing:** Selenium WebDriver, Pytest
 - **Reportes:** pytest-html con screenshots automáticos
 - **Gestión de Drivers:** webdriver-manager (instalación automática de ChromeDriver)
 
-## Requisitos Previos
+## 📋Requisitos Previos
 
 - Python 3.8+
 - Google Chrome (última versión)
 - Git
 
-## Instalación
+## ⚙️ Instalación
 
 1. **Clonar el repositorio:**
 
@@ -38,7 +38,7 @@ cd biblioteca-pruebas-selenium
 pip install -r requirements.txt
 ```
 
-## Ejecutar Pruebas automatizadas
+## 🧪 Ejecutar Pruebas automatizadas
 
 ### Prueba unitaria (Recomendado)
 
@@ -64,7 +64,7 @@ pytest tests/test_editar.py -v
 pytest tests/test_eliminar.py -v
 ```
 
-## Reportes y Evidencias
+## 📊 Reportes y Evidencias
 
 ### Reporte HTML
 
@@ -91,7 +91,7 @@ test_nombre_TIMESTAMP.png
 
 Los screenshots capturan el estado de la aplicación en momentos clave de cada prueba.
 
-## Historias de Usuario
+## 🎯Historias de Usuario
 
 **Documentación completa en Azure DevOps:**  
 [Ver Tablero de Historias](https://dev.azure.com/20240001/Biblioteca-Selenium/_boards/board/t/Biblioteca-Selenium%20Team/Issues)
@@ -123,7 +123,7 @@ Cada historia de usuario cubre:
 2. **Prueba Negativa:** Validación de errores y rechazos
 3. **Prueba de Límites:** Casos extremos y validaciones de borde
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 biblioteca-pruebas-selenium/
@@ -146,24 +146,13 @@ biblioteca-pruebas-selenium/
 └── README.md                   # Documentación
 ```
 
-## Video Demostración
-
-**Ver demostración completa en YouTube:**
-
-**Contenido del video:**
-
-- Demostración de la aplicación web funcionando
-- Ejecución completa de las 16 pruebas automatizadas
-- Navegación por el reporte HTML generado
-- Revisión de Test Cases en Azure DevOps
-
-## Autor
+## 👤Autor
 
 **George Steven Santana Rosario**  
 Estudiante de Programación 3 - ITLA  
 Proyecto Académico: Tarea 4 - Pruebas Automatizadas con Selenium
 
-## Contacto
+## 📧Contacto
 
 - **Correo:** 20240001@itla.edu.do
 - **GitHub:** [Tyrantoftheseas](https://github.com/Tyrantoftheseas)
